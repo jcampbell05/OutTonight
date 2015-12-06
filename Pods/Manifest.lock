@@ -1,0 +1,13 @@
+PODS:
+  - ObjectMapper (1.0.1)
+  - YamlSwift (1.2.1)
+
+DEPENDENCIES:
+  - ObjectMapper
+  - YamlSwift
+
+SPEC CHECKSUMS:
+  ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
+  YamlSwift: 297225be9d8e342f38c566b770289507862d06a1
+
+COCOAPODS: 0.39.0
