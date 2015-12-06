@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		52B0194EF09D036D4D110058 /* Pods_OutTonight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2F849AD60BE4A1737E3F88 /* Pods_OutTonight.framework */; };
+		7493ACD01C13F90F00175CA7 /* VenueList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493ACCF1C13F90F00175CA7 /* VenueList.swift */; };
+		7493ACD31C13FD3700175CA7 /* Mapper+YamlSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493ACD21C13FD3700175CA7 /* Mapper+YamlSwift.swift */; };
+		7493ACD51C13FDD800175CA7 /* Yaml+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493ACD41C13FDD800175CA7 /* Yaml+Dictionary.swift */; };
 		74CA7A6D1C13F4A100CE0E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA7A6C1C13F4A100CE0E14 /* AppDelegate.swift */; };
 		74CA7A6F1C13F4A100CE0E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA7A6E1C13F4A100CE0E14 /* ViewController.swift */; };
 		74CA7A721C13F4A100CE0E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CA7A701C13F4A100CE0E14 /* Main.storyboard */; };
 		74CA7A741C13F4A100CE0E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CA7A731C13F4A100CE0E14 /* Assets.xcassets */; };
 		74CA7A771C13F4A100CE0E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CA7A751C13F4A100CE0E14 /* LaunchScreen.storyboard */; };
+		74CA7A821C13F86000CE0E14 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA7A811C13F86000CE0E14 /* Venue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B2F849AD60BE4A1737E3F88 /* Pods_OutTonight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutTonight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7493ACCF1C13F90F00175CA7 /* VenueList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueList.swift; sourceTree = "<group>"; };
+		7493ACD21C13FD3700175CA7 /* Mapper+YamlSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Mapper+YamlSwift.swift"; path = "Categories/Mapper+YamlSwift.swift"; sourceTree = "<group>"; };
+		7493ACD41C13FDD800175CA7 /* Yaml+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Yaml+Dictionary.swift"; path = "Categories/Yaml+Dictionary.swift"; sourceTree = "<group>"; };
 		74CA7A691C13F4A100CE0E14 /* OutTonight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutTonight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CA7A6C1C13F4A100CE0E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74CA7A6E1C13F4A100CE0E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +32,7 @@
 		74CA7A761C13F4A100CE0E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74CA7A781C13F4A100CE0E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74CA7A7F1C13F62400CE0E14 /* Venues.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; name = Venues.yaml; path = "Supporting Files/Venues.yaml"; sourceTree = "<group>"; };
+		74CA7A811C13F86000CE0E14 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Venue.swift; path = Models/Venue.swift; sourceTree = "<group>"; };
 		7D9E45A67877A60CDCEC827B /* Pods-OutTonight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutTonight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OutTonight/Pods-OutTonight.debug.xcconfig"; sourceTree = "<group>"; };
 		7EB4DC9C47230B761377FD05 /* Pods-OutTonight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutTonight.release.xcconfig"; path = "Pods/Target Support Files/Pods-OutTonight/Pods-OutTonight.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +58,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7493ACD11C13FD1500175CA7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7493ACD21C13FD3700175CA7 /* Mapper+YamlSwift.swift */,
+				7493ACD41C13FDD800175CA7 /* Yaml+Dictionary.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		74CA7A601C13F4A100CE0E14 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +88,8 @@
 		74CA7A6B1C13F4A100CE0E14 /* OutTonight */ = {
 			isa = PBXGroup;
 			children = (
+				7493ACD11C13FD1500175CA7 /* Categories */,
+				74CA7A801C13F84D00CE0E14 /* Models */,
 				74CA7A7E1C13F5F300CE0E14 /* Supporting Files */,
 				74CA7A6C1C13F4A100CE0E14 /* AppDelegate.swift */,
 				74CA7A6E1C13F4A100CE0E14 /* ViewController.swift */,
@@ -88,6 +107,15 @@
 				74CA7A7F1C13F62400CE0E14 /* Venues.yaml */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74CA7A801C13F84D00CE0E14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74CA7A811C13F86000CE0E14 /* Venue.swift */,
+				7493ACCF1C13F90F00175CA7 /* VenueList.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		8238EBBD76E3C060D89C474E /* Frameworks */ = {
@@ -221,6 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CA7A6F1C13F4A100CE0E14 /* ViewController.swift in Sources */,
+				7493ACD01C13F90F00175CA7 /* VenueList.swift in Sources */,
+				74CA7A821C13F86000CE0E14 /* Venue.swift in Sources */,
+				7493ACD31C13FD3700175CA7 /* Mapper+YamlSwift.swift in Sources */,
+				7493ACD51C13FDD800175CA7 /* Yaml+Dictionary.swift in Sources */,
 				74CA7A6D1C13F4A100CE0E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
