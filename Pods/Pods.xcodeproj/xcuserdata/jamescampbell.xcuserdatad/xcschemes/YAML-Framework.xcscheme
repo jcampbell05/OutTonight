@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2B60696D8725356439237B40'
+               BlueprintIdentifier = 'BB7B2FBE69352A58267874B5'
                BlueprintName = 'YAML-Framework'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'YAML_Framework.framework'>

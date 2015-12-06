@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4F1470F4BE6D89DE4F244A80'
+               BlueprintIdentifier = '21681F467323FF73BA473E5E'
                BlueprintName = 'LibYAML'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LibYAML.framework'>

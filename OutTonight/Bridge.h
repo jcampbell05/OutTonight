@@ -9,6 +9,4 @@
 #ifndef Bridge_h
 #define Bridge_h
 
-#import <YAMLSerialization.h>
-
 #endif /* Bridge_h */

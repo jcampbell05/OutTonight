@@ -13,25 +13,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        if let filePath = NSBundle.mainBundle().pathForResource("Venues", ofType: "yaml")
+
+        if let venueList = VenueList.fetch(),
+           let venues = venueList.venues
         {
-            let fileContents = try! NSString(contentsOfFile: filePath, encoding: NSUTF8StringEncoding)
-            let document = Yaml.load(fileContents as String)
-            let value = document.value!
-            
-            if let map = value.rawDictionary(),
-               let venueList = Mapper<VenueList>().map(map),
-               let venues = venueList.venues
+            for (_, venue) in venues.enumerate()
             {
-                for (_, venue) in venues.enumerate()
-                {
-                    print("\(venue.name)")
-                }
+                print("\(venue.name)")
             }
         }
-        
     }
 
     override func didReceiveMemoryWarning() {
