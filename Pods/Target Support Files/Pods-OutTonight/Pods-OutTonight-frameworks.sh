@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-OutTonight/LibYAML.framework"
   install_framework "Pods-OutTonight/ObjectMapper.framework"
-  install_framework "Pods-OutTonight/YamlSwift.framework"
+  install_framework "Pods-OutTonight/YAML_Framework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-OutTonight/LibYAML.framework"
   install_framework "Pods-OutTonight/ObjectMapper.framework"
-  install_framework "Pods-OutTonight/YamlSwift.framework"
+  install_framework "Pods-OutTonight/YAML_Framework.framework"
 fi

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>LibYAML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>YamlSwift.xcscheme</key>
+		<key>YAML-Framework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>568EC3CBE05DD582B019D5AE117E7D98</key>
+		<key>32A34DEDBE0409A728E56935102BCC1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6BBCA8930968E4EB722DA66FBB392019</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C29241540A8D98EFF6FD3F997B3A9778</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E82421CBEE4F9A6C8D5D9FEC459CE24A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F92EB69CF32D008F61CD19A2E49F1F57</key>
 		<dict>
 			<key>primary</key>
 			<true/>

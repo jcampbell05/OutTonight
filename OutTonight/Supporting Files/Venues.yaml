@@ -1,3 +1,5 @@
 venues:
-    - name: Bodo's Schloss
-    - name: XOYO
+ -venue-one:
+  name: "Bodo's Schloss"
+ -venue-two:
+  name: "XOYO"

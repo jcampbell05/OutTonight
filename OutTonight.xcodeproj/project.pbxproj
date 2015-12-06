@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		52B0194EF09D036D4D110058 /* Pods_OutTonight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2F849AD60BE4A1737E3F88 /* Pods_OutTonight.framework */; };
 		7493ACD01C13F90F00175CA7 /* VenueList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493ACCF1C13F90F00175CA7 /* VenueList.swift */; };
-		7493ACD31C13FD3700175CA7 /* Mapper+YamlSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493ACD21C13FD3700175CA7 /* Mapper+YamlSwift.swift */; };
-		7493ACD51C13FDD800175CA7 /* Yaml+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493ACD41C13FDD800175CA7 /* Yaml+Dictionary.swift */; };
+		7493ACD81C1406C000175CA7 /* Venues.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 74CA7A7F1C13F62400CE0E14 /* Venues.yaml */; };
 		74CA7A6D1C13F4A100CE0E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA7A6C1C13F4A100CE0E14 /* AppDelegate.swift */; };
 		74CA7A6F1C13F4A100CE0E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA7A6E1C13F4A100CE0E14 /* ViewController.swift */; };
 		74CA7A721C13F4A100CE0E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CA7A701C13F4A100CE0E14 /* Main.storyboard */; };
@@ -22,8 +21,7 @@
 /* Begin PBXFileReference section */
 		0B2F849AD60BE4A1737E3F88 /* Pods_OutTonight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutTonight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7493ACCF1C13F90F00175CA7 /* VenueList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueList.swift; sourceTree = "<group>"; };
-		7493ACD21C13FD3700175CA7 /* Mapper+YamlSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Mapper+YamlSwift.swift"; path = "Categories/Mapper+YamlSwift.swift"; sourceTree = "<group>"; };
-		7493ACD41C13FDD800175CA7 /* Yaml+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Yaml+Dictionary.swift"; path = "Categories/Yaml+Dictionary.swift"; sourceTree = "<group>"; };
+		7493ACD91C140A0F00175CA7 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		74CA7A691C13F4A100CE0E14 /* OutTonight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutTonight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CA7A6C1C13F4A100CE0E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74CA7A6E1C13F4A100CE0E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,15 +56,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7493ACD11C13FD1500175CA7 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				7493ACD21C13FD3700175CA7 /* Mapper+YamlSwift.swift */,
-				7493ACD41C13FDD800175CA7 /* Yaml+Dictionary.swift */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
 		74CA7A601C13F4A100CE0E14 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +77,6 @@
 		74CA7A6B1C13F4A100CE0E14 /* OutTonight */ = {
 			isa = PBXGroup;
 			children = (
-				7493ACD11C13FD1500175CA7 /* Categories */,
 				74CA7A801C13F84D00CE0E14 /* Models */,
 				74CA7A7E1C13F5F300CE0E14 /* Supporting Files */,
 				74CA7A6C1C13F4A100CE0E14 /* AppDelegate.swift */,
@@ -97,6 +85,7 @@
 				74CA7A731C13F4A100CE0E14 /* Assets.xcassets */,
 				74CA7A751C13F4A100CE0E14 /* LaunchScreen.storyboard */,
 				74CA7A781C13F4A100CE0E14 /* Info.plist */,
+				7493ACD91C140A0F00175CA7 /* Bridge.h */,
 			);
 			path = OutTonight;
 			sourceTree = "<group>";
@@ -189,6 +178,7 @@
 			files = (
 				74CA7A771C13F4A100CE0E14 /* LaunchScreen.storyboard in Resources */,
 				74CA7A741C13F4A100CE0E14 /* Assets.xcassets in Resources */,
+				7493ACD81C1406C000175CA7 /* Venues.yaml in Resources */,
 				74CA7A721C13F4A100CE0E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +241,6 @@
 				74CA7A6F1C13F4A100CE0E14 /* ViewController.swift in Sources */,
 				7493ACD01C13F90F00175CA7 /* VenueList.swift in Sources */,
 				74CA7A821C13F86000CE0E14 /* Venue.swift in Sources */,
-				7493ACD31C13FD3700175CA7 /* Mapper+YamlSwift.swift in Sources */,
-				7493ACD51C13FDD800175CA7 /* Yaml+Dictionary.swift in Sources */,
 				74CA7A6D1C13F4A100CE0E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jah.OutTonight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/${TARGET_NAME}/Bridge.h";
 			};
 			name = Debug;
 		};
@@ -383,6 +372,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jah.OutTonight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/${TARGET_NAME}/Bridge.h";
 			};
 			name = Release;
 		};

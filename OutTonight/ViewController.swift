@@ -8,7 +8,6 @@
 
 import UIKit
 import ObjectMapper
-import YamlSwift
 
 class ViewController: UIViewController {
 
@@ -22,7 +21,15 @@ class ViewController: UIViewController {
             let document = Yaml.load(fileContents as String)
             let value = document.value!
             
-            let venueList = Mapper<VenueList>().map(value)
+            if let map = value.rawDictionary(),
+               let venueList = Mapper<VenueList>().map(map),
+               let venues = venueList.venues
+            {
+                for (_, venue) in venues.enumerate()
+                {
+                    print("\(venue.name)")
+                }
+            }
         }
         
     }

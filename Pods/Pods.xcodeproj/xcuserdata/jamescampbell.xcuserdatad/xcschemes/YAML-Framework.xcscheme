@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1AF9EA19EA243A753A690CD0'
-               BlueprintName = 'YamlSwift'
+               BlueprintIdentifier = '2B60696D8725356439237B40'
+               BlueprintName = 'YAML-Framework'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'YamlSwift.framework'>
+               BuildableName = 'YAML_Framework.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

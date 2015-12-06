@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '28F0E786F45B0F756AEC36FA'
-               BlueprintName = 'Pods-OutTonight'
+               BlueprintIdentifier = '4F1470F4BE6D89DE4F244A80'
+               BlueprintName = 'LibYAML'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_OutTonight.framework'>
+               BuildableName = 'LibYAML.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

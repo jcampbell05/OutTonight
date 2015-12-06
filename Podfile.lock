@@ -1,13 +1,16 @@
 PODS:
+  - LibYAML (0.1.4)
   - ObjectMapper (1.0.1)
-  - YamlSwift (1.2.1)
+  - YAML-Framework (0.0.2):
+    - LibYAML (~> 0.1.4)
 
 DEPENDENCIES:
   - ObjectMapper
-  - YamlSwift
+  - YAML-Framework
 
 SPEC CHECKSUMS:
+  LibYAML: 3af2c5adf3a40dff936d087aa6a77edc10036bc5
   ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
-  YamlSwift: 297225be9d8e342f38c566b770289507862d06a1
+  YAML-Framework: 6fe698e19d39d778829f5937e39d1e6bc12afd7b
 
 COCOAPODS: 0.39.0
